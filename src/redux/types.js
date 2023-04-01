@@ -1,0 +1,2 @@
+export const SELECT_CITY = "SELECT_CITY"
+export const FETCH_CITY_DATA = "FETCH_CITY_DATA"

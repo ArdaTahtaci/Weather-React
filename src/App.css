@@ -1,38 +1,82 @@
 .App {
   text-align: center;
+  color: #fdfdfd;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: -webkit-linear-gradient(0deg, #125971, #178ba4);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  background-color: #125971;
+  border-radius: 5%;
+  border-color: #125971;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.7);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+footer {
+  background-color: #125971;
+}
+
+.navbar-brand {
+  color: #fdfdfd;
+}
+
+.list-group-item {
+  text-align: left;
+  width: 77%;
+}
+
+.list-group-item:hover {
+  background-color: #1fc4d8;
+}
+
+.current {
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.7);
+  width: 90%;
+  padding: 0px 0px 0px 0px;
+}
+
+.current-heading {
+  background-color: #131522;
+  text-align: left;
+  border-radius: 4%;
+
+}
+
+.current-body {
+  text-align: left;
+  background-image: url("https://m-cdn.phonearena.com/images/article/143515-wide-two_1200/Apple-tests-adding-news-to-the-native-Weather-app-in-iOS-16.2-Beta.jpg");
+  border-radius: 2%;
+  margin: 0;
+
+
+}
+
+.current-body h1 {
+  font-size: 4rem;
+}
+
+.hourly-card {
+  background: linear-gradient(#131522, #125971);
+  width: 100%;
+}
+
+.card-group {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.daily {
+  padding-bottom: 0;
+  margin: 0;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.7);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.daily-table {
+  border: #131522;
+  color: #fdfdfd;
+  background: linear-gradient(#125971, #178ba4);
+  padding-bottom: 0;
+  margin-bottom: 0;
+
 }
